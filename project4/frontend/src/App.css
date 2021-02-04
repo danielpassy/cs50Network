@@ -1,0 +1,167 @@
+.post {
+  background-color: azure; 
+}
+
+.postWrap {
+  padding: 3vh 3vw;
+}
+.searchNavBar{
+  height:24px;
+  padding: 0px 8px !important;
+  margin: 10px 0px 6px 0px !important;
+  display: flex 1 0;
+}
+
+.dropdown > a:nth-child(1){
+  color: rgba(255,255,255,.5)
+}
+.dropdown > a:nth-child(1):hover{
+  color: rgba(255,255,255,.7)
+}
+
+
+.dropdown-menu {
+  transform: translate(-131px, 45px) !important;
+}
+
+
+.commentsWrap {
+  background-color: whitesmoke  ;
+}
+
+.post > * {
+  padding: 3px;
+}
+
+.name {
+  font-weight: normal;
+  font-size: larger;
+}
+
+p {
+  font-weight: 400;
+  font-size: medium;
+}
+
+.postAvatar {
+  margin: auto;
+}
+
+.textAnswer{
+  width: 100%;
+  padding: 0 3vw 0 3vw
+}
+
+.newPost {
+  padding: 0 15px 0 15px ;
+}
+
+a:link {
+  text-decoration: none;
+  color:black
+}
+
+a:visited {
+  text-decoration: none;
+  color:black
+}
+
+a:hover {
+  text-decoration: none !important;
+  color:black
+}
+
+a:active {
+  text-decoration: none;
+  color:black
+}
+
+.newPostSubmit{
+  padding: 5px 12px 5px 12px !important;
+}
+
+.textAnswer {
+  height: 7vh !important;
+}
+
+
+
+.form-group{
+  font-weight: 800;
+  font-size: 34;
+  margin: auto;
+  background-color: white;
+  padding: 4vh 5vw 4vh 5vw;
+  border-radius: 3%;
+}
+
+label{
+  margin-top: 8px !important;
+}
+
+.BackGround { 
+  min-height: 100vh;
+  background-color: rgba(230, 230, 230, 0.972); 
+}
+
+#body {
+  margin: 5vh
+}
+
+.loginForm {
+  width: 60vw;
+  padding-top: 5vh
+}
+
+.center-align{
+  text-align: center;
+}
+
+
+.postWrap{
+  background-color: #c4c4c4;
+}
+
+
+@media(max-width:768px){
+  .profileData{
+    align-items: center;
+  }
+  
+}
+
+.edit-deleted-comment-post{
+  top:5px;
+  right:5px;
+  cursor: pointer;
+}
+
+.edit-deleted-comment-post-moved{
+  right:-155px;
+  top:5px;
+  cursor: pointer;
+}
+
+.drop-down-edit-deleted-comment-post{
+  transform: translate(-0px, 0px) !important;
+  top: 25px !important;
+  z-index: 1200;
+  height:80px !important
+}
+
+
+/*------------ */
+.submit-form{
+  width: 100px !important  ;
+}
+
+
+
+
+
+.timeStamp {
+  bottom: 0px;
+  font-weight: 500;
+  right:7px;
+  font-size:12px;
+}
